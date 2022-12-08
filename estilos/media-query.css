@@ -16,6 +16,7 @@ Desktop: 992 até 1200px;
 Grandes Telas: Acima de 1200px;
 */
 
+/* Configuração para tablets */
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     body {
@@ -24,6 +25,7 @@ Grandes Telas: Acima de 1200px;
 
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login > #imagem {
@@ -39,6 +41,7 @@ Grandes Telas: Acima de 1200px;
     }
 }
 
+/* Configurações para Desktop */
 @media screen and (min-width: 992px) {
 
     body {
@@ -47,6 +50,7 @@ Grandes Telas: Acima de 1200px;
 
     section#login {
         width: 950px;
+        height: 330px;
     }
 
     section#login > #imagem {
@@ -66,6 +70,6 @@ Grandes Telas: Acima de 1200px;
     }
 
     #formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
